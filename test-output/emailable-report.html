@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">TestNG session test automation suite</th></tr>
+<tr><td><a href="#t0">Different TestNG Feature test</a></td><td class="num">24</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">85,518</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">TestNG session test automation suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Different TestNG Feature test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">selenium_sessions.ExceptionTimeoutTest</td><td><a href="#m0">infiniteLoopTest</a></td><td rowspan="1">1617688572200</td><td rowspan="1">17</td></tr><tr><th colspan="4">Different TestNG Feature test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">selenium_sessions.ExceptionTimeoutTest</td><td><a href="#m1">test1</a></td><td rowspan="1">1617688572268</td><td rowspan="1">8</td></tr><tr class="passedodd"><td rowspan="6">selenium_sessions.GoogleTest</td><td><a href="#m2">gmailLinkTest</a></td><td rowspan="1">1617688615358</td><td rowspan="1">125</td></tr><tr class="passedodd"><td><a href="#m3">googleLogoTest</a></td><td rowspan="1">1617688602631</td><td rowspan="1">208</td></tr><tr class="passedodd"><td><a href="#m4">googleTitleTest</a></td><td rowspan="1">1617688587993</td><td rowspan="1">291</td></tr><tr class="passedodd"><td><a href="#m5">test1</a></td><td rowspan="1">1617688628540</td><td rowspan="1">2</td></tr><tr class="passedodd"><td><a href="#m6">test2</a></td><td rowspan="1">1617688641962</td><td rowspan="1">6</td></tr><tr class="passedodd"><td><a href="#m7">test3</a></td><td rowspan="1">1617688655095</td><td rowspan="1">2</td></tr><tr class="passedeven"><td rowspan="10">selenium_sessions.TestNG_InvocationCountTest</td><td><a href="#m8">sum</a></td><td rowspan="10">1617688657621</td><td rowspan="10">2</td></tr><tr class="passedeven"><td><a href="#m9">sum</a></td></tr><tr class="passedeven"><td><a href="#m10">sum</a></td></tr><tr class="passedeven"><td><a href="#m11">sum</a></td></tr><tr class="passedeven"><td><a href="#m12">sum</a></td></tr><tr class="passedeven"><td><a href="#m13">sum</a></td></tr><tr class="passedeven"><td><a href="#m14">sum</a></td></tr><tr class="passedeven"><td><a href="#m15">sum</a></td></tr><tr class="passedeven"><td><a href="#m16">sum</a></td></tr><tr class="passedeven"><td><a href="#m17">sum</a></td></tr><tr class="passedodd"><td rowspan="4">selenium_sessions.TestNG_dependsOnMethods</td><td><a href="#m18">homePageTest</a></td><td rowspan="1">1617688657592</td><td rowspan="1">1</td></tr><tr class="passedodd"><td><a href="#m19">loginTest</a></td><td rowspan="1">1617688657587</td><td rowspan="1">2</td></tr><tr class="passedodd"><td><a href="#m20">registrationPageTest</a></td><td rowspan="1">1617688657595</td><td rowspan="1">1</td></tr><tr class="passedodd"><td><a href="#m21">searchPageTest</a></td><td rowspan="1">1617688657598</td><td rowspan="1">1</td></tr><tr class="passedeven"><td rowspan="3">selenium_sessions.TestNG_tutorial1</td><td><a href="#m22">googleLogoTest</a></td><td rowspan="1">1617688657662</td><td rowspan="1">4</td></tr><tr class="passedeven"><td><a href="#m23">googleTitleTest</a></td><td rowspan="1">1617688657669</td><td rowspan="1">2</td></tr><tr class="passedeven"><td><a href="#m24">searchTest</a></td><td rowspan="1">1617688657675</td><td rowspan="1">1</td></tr></tbody>
+</table>
+<h2>Different TestNG Feature test</h2><h3 id="m0">selenium_sessions.ExceptionTimeoutTest#infiniteLoopTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.internal.thread.ThreadTimeoutException: Method selenium_sessions.ExceptionTimeoutTest.infiniteLoopTest() didn&apos;t finish within the time-out 2
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 24 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">selenium_sessions.ExceptionTimeoutTest#test1</h3><table class="result"><tr><th>Expected Exception</th></tr><tr><td><div class="stacktrace">java.lang.NumberFormatException: For input string: &quot;100A&quot;
+	at java.lang.NumberFormatException.forInputString(Unknown Source)
+	at java.lang.Integer.parseInt(Unknown Source)
+	at java.lang.Integer.parseInt(Unknown Source)
+	at selenium_sessions.ExceptionTimeoutTest.test1(ExceptionTimeoutTest.java:18)
+	at java.util.ArrayList.forEach(Unknown Source)
+... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">selenium_sessions.GoogleTest#gmailLinkTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">selenium_sessions.GoogleTest#googleLogoTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">selenium_sessions.GoogleTest#googleTitleTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">selenium_sessions.GoogleTest#test1</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">selenium_sessions.GoogleTest#test2</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">selenium_sessions.GoogleTest#test3</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">selenium_sessions.TestNG_InvocationCountTest#sum</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">selenium_sessions.TestNG_InvocationCountTest#sum</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">selenium_sessions.TestNG_InvocationCountTest#sum</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">selenium_sessions.TestNG_InvocationCountTest#sum</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">selenium_sessions.TestNG_InvocationCountTest#sum</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">selenium_sessions.TestNG_InvocationCountTest#sum</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">selenium_sessions.TestNG_InvocationCountTest#sum</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m15">selenium_sessions.TestNG_InvocationCountTest#sum</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m16">selenium_sessions.TestNG_InvocationCountTest#sum</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m17">selenium_sessions.TestNG_InvocationCountTest#sum</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m18">selenium_sessions.TestNG_dependsOnMethods#homePageTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m19">selenium_sessions.TestNG_dependsOnMethods#loginTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m20">selenium_sessions.TestNG_dependsOnMethods#registrationPageTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m21">selenium_sessions.TestNG_dependsOnMethods#searchPageTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m22">selenium_sessions.TestNG_tutorial1#googleLogoTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m23">selenium_sessions.TestNG_tutorial1#googleTitleTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m24">selenium_sessions.TestNG_tutorial1#searchTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
